@@ -1,0 +1,19 @@
+
+footer{
+    background-color:#929090;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+   
+  
+    
+    
+   
+}
+
+footer span{
+    font-size: 1.2em;
+    font-weight: 400;
+}

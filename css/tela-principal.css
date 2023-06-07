@@ -1,0 +1,82 @@
+main #tela-principal{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    
+    padding-top: 25rem;
+    background-color: #1d1c1c;
+   
+    
+}
+/*Meu nome lateral*/
+main .lateral{
+    width: 50%;
+    font-family:'Montserrat';
+    font-size: 20px;
+    display: flex;
+    flex-direction: column; 
+    letter-spacing: 2px;
+    margin-left: 15%;
+    
+}
+main p{
+    font-weight: bold;
+    font-size: 5rem;
+    text-align: left;
+}
+main .nome{
+    margin-bottom: 2.5rem;
+}
+/*Contatos pagina principal*/
+main .lateral h3{
+    font-size: 25px;
+    margin-top: 3rem; 
+}
+main .lateral h2{
+    font-size: 20px;
+}
+main .figura{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+main button .curriculo:hover{
+    color: whitesmoke;
+}
+main button{
+    width: 200px;
+   height: 50px;
+   margin-top: 2.5rem;
+   
+   background-color: rgba(0, 0, 0, 0.185);
+   color: #FF5B40;
+   font-size: 1.6rem;
+   cursor: pointer;
+   border: #FF5B40 2px solid;
+   box-shadow: 2px 2px 8px black;
+   font-weight: bold;
+}
+main button:hover{
+
+    background-color: #FF5B40;
+    color: whitesmoke;
+    font-weight: bold; 
+}
+
+main .foto .foto-paulin{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    cursor: pointer;
+    transition: transform 0.5s;
+    top: 20rem;
+    left: 50%
+    
+}
+main .foto .foto-paulin:hover{
+    transform: scale(1.1);
+}
+main .ponto{
+    color: #FF5B40;
+}

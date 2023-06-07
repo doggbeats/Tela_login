@@ -1,0 +1,209 @@
+
+@media (max-width: 1000px) {
+    main {
+        width: 100%;
+        align-items: center;
+        flex-direction: column; 
+    }
+    main .main-content{
+        width: 100%;
+        align-items: center;
+
+    }
+    main .main-content h2 {
+        margin: 0;
+        margin-top: 5rem;
+    }
+    main .main-content .text, .conhecimentos{
+        text-align: center;
+        align-items: center;
+        font-size: 1.2em;  
+    }
+    main .main-content .text p {
+        width: 100%;
+        font-size: 0.9em;
+    }
+    main .conhecimentos {
+        margin-top: 10%;
+    }
+    main .conhecimentos .cards-container{
+       width: 100%;
+    }
+    main .conhecimentos .cards-container .card{
+        width: 60px;
+        height: 60px;
+        padding: 2px;
+        background-color: whitesmoke;
+        border-radius: 5px;
+        cursor: pointer;
+     }
+    main .conhecimentos .cards-container, .main-content .text p{
+        margin-top: 32px;
+        align-content: center;
+    }
+
+}
+
+
+
+@media (max-width: 990px) {
+    header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    header h1{
+        font-size: 2em;
+    }
+    header nav{
+        margin-top: 24px;
+    }
+    header nav a {
+        font-size: 1.8em;
+    }
+    main{
+        width: 100%;
+       
+    
+    }
+    main #tela-principal {
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        padding-top: 8rem;
+        font-size: 0.8em;
+        
+    }
+    main #tela-principal figure img{
+        display: none;
+    }
+    main .main-content{
+        height: 80vh;
+    }
+    main .main-content h2 {
+        margin: 0;
+        margin-top: 2rem;
+    }
+    main .main-content .text {
+        display: block;
+        margin: 0;
+        padding-top: 3rem;
+    }
+    main .main-content .paulin {
+        width: 150px;
+        height: 150px;
+        margin-top: 3rem;
+    }
+    main .conhecimentos {
+        margin: 0;
+        padding-top: 5%;
+    }
+    main .conhecimentos .cards-container{
+      
+       margin: 0 auto;
+    }
+
+    main .conhecimentos .cards-container .card {
+        width: 50px;
+        height: 35px;
+        padding: 4px;
+        background-color: whitesmoke;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    main .main-content .text h2, .main-content .conhecimentos h2 {
+        font-size: 1.8em;
+
+    }
+    main .conhecimentos .cards-container .card img{
+        width: 30px;
+    }
+    main figure img{
+        width: 150px;
+        height: 150px;
+    }
+
+}
+
+
+
+
+@media (max-width: 500px) {
+    header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    header h1{
+        font-size: 2em;
+    }
+    header nav{
+        margin-top: 24px;
+    }
+    header nav a {
+        font-size: 1.6em;
+    }
+    main{
+        width: 100%;
+        
+    
+    }
+    main #tela-principal {
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        padding-top: 8rem;
+        font-size: 0.8em;
+        
+    }
+    main #tela-principal figure img{
+        display: none;
+    }
+    main .main-content{
+        height: 100vh;
+    }
+    main .main-content h2 {
+        margin: 0;
+        margin-top: 5rem;
+    }
+    main .main-content .text {
+        display: block;
+        margin: 0;
+        padding-top: 5rem;
+    }
+    main .main-content .paulin {
+        width: 150px;
+        height: 150px;
+        margin-top: 3rem;
+    }
+    main .conhecimentos {
+       
+        padding-top: 5%;
+    }
+    main .conhecimentos .cards-container{
+       margin: 0 auto;
+    }
+
+    main .conhecimentos .cards-container .card {
+        width: 50px;
+        height: 35px;
+        background-color: whitesmoke;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    main .main-content .text h2, .main-content .conhecimentos h2 {
+        font-size: 1.8em;
+
+    }
+    main .conhecimentos .cards-container .card img{
+        width: 30px;
+    }
+    main figure img{
+        width: 150px;
+        height: 150px;
+    }
+}
